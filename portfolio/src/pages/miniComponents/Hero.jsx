@@ -101,7 +101,7 @@ const Hero = () => {
             <span>GFG</span>
           </Button>
         </Link>
-        {/* <Link to={user.codeforcesURL} target="_blank">
+        <Link to={user.codeforcesURL} target="_blank">
           <Button className="rounded-[30px] flex items-center gap-2 flex-row">
             <span>
               <Code />
@@ -116,7 +116,7 @@ const Hero = () => {
             </span>
             <span>Codechef</span>
           </Button>
-        </Link> */}
+        </Link>
 
         <Link to="http://localhost:5174/" target="_blank">
           <Button className="rounded-[30px] flex items-center gap-2 flex-row">
