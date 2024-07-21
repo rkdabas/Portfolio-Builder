@@ -123,7 +123,10 @@ const Dashboard = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardFooter>
-                  <Link to="http://localhost:5173/" target="_blank">
+                  <Link
+                    to="https://portfolio-portfolio-builder.vercel.app/"
+                    target="_blank"
+                  >
                     <Button>Visit Portfolio</Button>
                   </Link>
                 </CardFooter>

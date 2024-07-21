@@ -118,7 +118,10 @@ const Hero = () => {
           </Button>
         </Link>
 
-        <Link to="http://localhost:5174/" target="_blank">
+        <Link
+          to="https://dashboard-portfolio-builder.vercel.app/"
+          target="_blank"
+        >
           <Button className="rounded-[30px] flex items-center gap-2 flex-row">
             <span>
               <ExternalLink />
