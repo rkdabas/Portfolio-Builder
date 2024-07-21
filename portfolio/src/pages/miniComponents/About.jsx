@@ -7,7 +7,7 @@ const About = () => {
   useEffect(() => {
     const getMyProfile = async () => {
       const { data } = await axios.get(
-        "http://localhost:4000/api/v1/user/me/portfolio",
+        "https://portfolio-builder-1iu3.onrender.com/api/v1/user/me/portfolio",
         { withCredentials: true }
       );
       setUser(data.user);
@@ -58,9 +58,9 @@ const About = () => {
           </div>
         </div>
         <p className="tracking-[1px] text-xl">
-          I also excell in problem-solving with a high LeetCode rating of 1828 and 950+
-          problems solved and achieved top ranks in JEE Mains and Jee Advanced.
-          I am committed to continuous learning and contributing to
+          I also excell in problem-solving with a high LeetCode rating of 1828
+          and 950+ problems solved and achieved top ranks in JEE Mains and Jee
+          Advanced. I am committed to continuous learning and contributing to
           technological advancements. periods.
         </p>
       </div>
